@@ -1,0 +1,402 @@
+*{
+	margin:0; padding:0;
+}
+body{
+	background-color:#bfbfbf;
+	/*this property is used for putiing background colour in body*/
+}
+header{
+	background-color: white;
+	height: 20%;
+	/*this property is used for changing  height*/
+}
+
+.img {
+	display: flex;
+	/*this property is used for the direction*/
+	width: 30%;
+	/*this proprty is used to give width of img class*/
+}
+header img{
+	width: 31%;
+	height: 67%;
+	margin: 7%;
+	/*this property is used for spacing the border*/
+	border-radius: 50%;
+}
+
+header h1{
+	font-family: serif;
+	/*this property is used to give font family*/
+	height: 60%;
+	position: relative;
+	/*this property used to give a positoin of header*/
+	right: 44%;
+	margin-top: 9%;
+	/*this property id used for giving space in the top*/
+}
+
+.navigation{
+	width: 70%;
+	position: absolute;
+	/*this property is used for positioning the event where we want to*/
+	top: 14%;
+	right: 0%;
+	height: 6%;
+}
+
+.navigation ul{
+	height: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	/*this property is used to give space around*/
+}
+
+.navigation ul li{
+	width: 16%;
+	margin-bottom: -6.5px;
+	text-align: center;
+	/*this property is used for putting text to the center*/
+}
+
+.navigation ul li:hover{
+	background: #E0F7FA;
+}
+/*this proerty is used for motion effect*/
+.navigation a{
+	color: black;
+	display: block;
+	padding: 7%; 
+	text-decoration: none;
+	font-size: 21px;
+	transition-duration: 0.5s;
+	/*this property is used for time duration*/
+}
+.navigation ul li a:hover{
+	color:#0097A7;
+	transform: rotateX(360deg);
+	/*this property is used for make text rotate by through X-axis by 360 degree*/
+	font-size: 15px;
+}
+
+section{
+	background-color:#E0F7FA;
+	display: flex;
+}
+
+.indexSection{
+	padding: 7%;
+}
+
+.blockOne{
+	width:35%;
+	font-size:30px; 
+	text-align:center;
+	margin-left: 10%
+
+}
+.blockOne img{
+	height:390px; 
+	width:378px;
+	border-radius: 10px 10px 10px 10px;
+	transition-duration: 2s;
+}
+.blockOne img:hover{
+	border-radius: 50%;
+}
+
+.blockTwo{
+	width: 50%;
+	padding: 2%;
+	text-align: justify;
+	/*this property used for arranging the text*/
+	font-size: 25px;
+}
+
+}
+.blockTwo h2{
+	font-size:50px;
+    color: #e91660;
+}
+
+footer{
+	background-color:#1DE9B6; 
+	}
+
+.topfooter{
+	display: flex;
+}
+
+.staywithme {
+	width: 40%;
+}
+
+.staywithme img{
+	margin-top: 0.5%;
+	width: 9%;
+	position: relative;
+	left: 52%;
+	transition-duration: 1.5s;
+}
+
+.staywithme img:hover{
+	transform: rotate(360deg);
+	/*this property is used for rotating img by 360 degree*/
+}
+
+.staywithme h2{
+	position: relative;
+	left: 50%;
+	top: 2%;
+}
+
+.emailme{
+	width: 28%;
+	display: flex;
+	padding: 1%;
+}
+.emailme img{
+	width: 41%;
+	position: relative;
+	left: 21%;
+	transition-duration: 1.5s;
+}
+
+.emailme img:hover{
+	transform: rotate(360deg);
+
+}
+
+.emailme h3{
+	height: 4%;
+	position: relative;
+	right: 24%;
+	top: 38%;
+
+}
+
+.callmeon{
+	width: 32%;
+	display: flex;
+	padding: 1%;
+}
+
+.callmeon img{
+	width: 18%;
+	transition-duration: 1.5s;
+}
+
+.callmeon img:hover{
+	transform: rotate(360deg);
+}
+
+.callmeon h3{
+	height: 4%;
+	position: relative;
+	right: 64%;
+	top: 38%;
+}
+
+.Copyright{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}		
+
+.aboutSection{
+	background-image: url("../image/pg.jpg");
+	/*this property is used for inserting an image in an aboutSection*/
+	background-repeat: no-repeat;
+	/*this disables background from repeating*/
+	background-size: 100% 100%;
+	/*height:112%;*/
+}
+.aboutBlock1{
+	width: 40%;
+	background: rgba(255, 255, 255, 0.7);
+	/*this property is used for background color with opacity*/
+	margin-top: 30.5%;
+	margin-left: 50%;
+}
+.aboutBlock1 p{
+	text-align: justify;
+	color: black;
+	padding: 2%;
+	font-size: 20px;
+	font-style: italic;
+}	
+.cvSection{
+	display: flex;
+	flex-direction: column;
+	/*this is used for displaying contents in a column*/
+	/*background-color: black;*/
+	/*color:white;*/
+}
+.cvSection h2{
+	text-align: center;
+	text-decoration:underline;
+	/*this property is used for underlining the text*/
+	/*border: solid;*/
+	padding-top: 1.5%;
+	/*color: white;*/
+}
+.cvSection h3{
+	/*color: #FF4500;*/
+}
+.cvImg img{
+	height:35%;
+	width:21%;
+	margin-top: 2%;
+	margin-left:40%
+	}
+
+.cvBlock1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*border:solid;*/
+	}
+
+.CV ul{
+	margin-left: 8%;
+	list-style: none;
+}
+.Qualification ul {
+    padding-left: 10%;
+}
+.cvBlock2{
+	display:flex;
+	justify-content: space-between; 
+	margin-top: 6%;
+	margin-left:4%;
+	margin-right: 4%;
+	margin-bottom: 1%;
+	 /*border:solid; */
+}
+.Skill ul{
+	padding-left: 10%;
+}
+.Experience ul{
+	padding-left: 13%;
+}
+.Interest ul{
+	padding-left: 30%;
+}
+.References ul{
+    list-style: none;
+}
+.References h6{
+font-size: 18px;
+}
+.References h5{
+	color: blue;
+	font-size: 19px;
+}
+.socialSection{
+	display: flex;
+	flex-direction:column;
+	background-color:black;
+}
+.socialSection h1{
+	text-align: center;
+	color:white;
+	font-size:40px;
+	padding: 2%;
+}
+.socialSection h3{
+	text-align: center;
+	color:white;
+	opacity:0.6;
+}
+.socialBlock1{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	/*border: solid;*/
+	color:white;
+	list-style: none;
+	margin-top:2%;
+}
+.google{
+	/*border:solid;*/
+	list-style: none;
+	padding-left:40%;
+	color:white;
+	margin-top:2%;
+	margin-bottom: 3%;
+}
+.google li{
+	font:white;
+	padding-left:7%;
+	padding-top: 2%;
+}
+.google li a{
+	color:blue;
+}
+.LinkedIn img{
+	height:100px;
+	width:100px;
+
+}
+.socialBlock1 li{
+	padding:10%;
+}
+.facebook img{
+	height:98px;
+	width:98px;
+}
+.Twitter img{
+	height:100px;
+	width:100px;
+}
+.google img{
+	height:133px;
+	width:384px;
+}
+.GitHub img{
+	height: 105px;
+	width:105px;
+}
+.Reddit img{
+	height:96px;
+	width:96px;
+	padding-top: 1%;
+}
+.pinterest img{
+	height:100px;
+	width:100px;
+}
+.contactSection{
+	display:flex;
+	flex-direction: column;
+}
+.Form{
+	padding-top: 1%;
+	margin-bottom: 2%;
+	padding-left:35%;
+}
+input[type="text"]{
+	/*width:15%;*/
+	/*margin-left: 10%;*/	
+
+}
+.input[type=email]{
+	width:10%;
+
+}
+input#submit{
+    background-color:#E0F7FE;
+    background-repeat: no-repeat;
+    width:60px;
+    height:40px;
+}
+.map{
+	margin:4%;
+}
+
+
+

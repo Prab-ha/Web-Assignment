@@ -1,0 +1,185 @@
+@media screen and (max-width: 520px){
+	/*This property is used for making page responsive*/
+	header {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+	.img {
+		width: 100%;
+		margin-left: 18%;	
+	}
+
+	header img{
+		width: 31%;
+		height: auto;
+	}
+
+	.navigation{
+		width: 100%;
+		height: 44%;
+		margin-top: 11.5%;
+
+	}
+
+	.navigation ul{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		background-color: white;
+	}
+
+	.navigation ul li{
+		width: 100%;
+		height: 16.5%;
+		text-align: center;
+	}
+
+	.navigation a{
+		font-size: 18px;
+		margin-top: -3.5%;
+	}
+
+	.navigation ul li a:hover{
+		font-size: 18px;
+	}
+
+	section{
+		
+	}
+	.indexSection{
+		display: flex;
+		flex-direction: column;
+	}
+	.blockOne{
+		width:100%;
+	}
+
+	.blockOne img{
+		margin-right: 20%;
+		margin-top: 80%;
+
+	}
+	.blockTwo{
+		width: 100%;
+	}
+
+	.blockTwo h2{
+	    padding: 1%;
+	}
+
+	.topfooter{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.staywithme {
+		width: 100%;
+	}
+
+	.staywithme img{
+		position: relative;
+		left: 10%;
+
+	}
+
+	.staywithme a{
+		margin-left: 1%;
+	}	
+
+	.staywithme h2{
+		position: relative;
+		left: 5%;
+	}
+
+
+	.emailme{
+		width: 100%;
+		position: relative;
+		right: 10%;
+	}
+
+	.emailme img{
+		width: 23%;
+	}
+
+	.emailme h3{
+		position: relative;
+		right: 64%;
+	}
+
+	.callmeon{
+		width: 100%;
+	}
+
+	.callmeon img{
+		width: 15%;
+		margin-left: 2%; 
+	}
+	.callmeon h3{
+		margin-top: 5%;
+	}
+
+	.aboutSection{
+		display: flex;
+		flex-direction: column;
+		margin-top: 75%;
+
+	}
+
+	.aboutBlock1{
+		width: 50%;
+
+	}
+	.cvSection{
+		display: flex;
+		flex-direction: column;
+		margin-top: 70%;
+		padding: 3%;
+	}
+	.cvBlock1{
+		display: flex;
+		flex-direction: column;
+		padding: 3%;
+		height: auto;
+	}
+
+	.Qualification{
+		padding-top: 10%;
+	}
+	.cvBlock2{
+		display: flex;
+		flex-direction: column;
+		padding: 3%;
+
+	}
+	.Experience{
+		padding-top: 10%;
+	}
+	.References{
+		padding-top: 10%;
+	}
+
+	.socialSection{
+		display: flex;
+		flex-direction: column;
+		margin-top: 70%;
+	}	
+	.socialBlock1{
+		display: flex;
+		flex-direction: column;
+	}
+	.ContactSection{
+		margin-top: 73%;
+	}
+	.Form{
+		position: relative;
+		right: 30%;
+	}
+	.Form textarea{
+		width: 60%;
+	}
+	.map{
+		position: relative;
+		right: 5%;
+	}
